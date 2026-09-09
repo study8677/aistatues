@@ -2,11 +2,11 @@
 
 | Service | SLA(OK%) | OK | WARN | CRITICAL | UNKNOWN | Latest |
 |---|---:|---:|---:|---:|---:|---|
-| AWS | 100.00 | 10 | 0 | 0 | 0 | ok |
-| Claude | 100.00 | 10 | 0 | 0 | 0 | ok |
-| Gemini | 100.00 | 10 | 0 | 0 | 0 | ok |
-| Grok | 100.00 | 10 | 0 | 0 | 0 | ok |
-| OpenAI | 80.00 | 8 | 2 | 0 | 0 | ok |
+| AWS | 100.00 | 11 | 0 | 0 | 0 | ok |
+| Claude | 100.00 | 11 | 0 | 0 | 0 | ok |
+| Gemini | 100.00 | 11 | 0 | 0 | 0 | ok |
+| Grok | 100.00 | 11 | 0 | 0 | 0 | ok |
+| OpenAI | 72.73 | 8 | 3 | 0 | 0 | warn |
 
 ## 最近 30 条事件
 ### AWS
@@ -18,6 +18,7 @@
 ### Grok
 - 无事件记录
 ### OpenAI
+- 2026-09-09T15:14:26Z | investigating | Increased Error Rate For Pro and Plus Plan Conversations
 - 2026-09-08T20:56:19Z | monitoring | Elevated errors for image generation
 - 2026-09-08T18:01:08Z | monitoring | File uploads are delayed or failing
 - 2026-09-08T18:01:08Z | identified | Elevated errors for image generation
